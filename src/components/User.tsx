@@ -56,4 +56,60 @@ const User = (props: { name: string; age : number }) => {
 };
 
 export default User;
+
+function App() {
+  return (
+    <div className="app">
+      <h1>User Management</h1>
+      <User name="Rohomot Ullah" age={45} isRegistered={true}></User>
+      <User name="Rohomot Ullah" age={45} isRegistered={false}></User>
+    </div>
+  );
+}
+
+export default App;
+
+function App() {
+  return (
+    <div className="app">
+      <h1>User Management</h1>
+
+      <User
+        name="Rohomot Ullah"
+        age={45}
+        isRegistered={false}
+        lang={["Bangla", "English"]}
+      ></User>
+    </div>
+  );
+}
+
+export default App;
+
+const user1 = {
+  name: "Rohomot Ullah",
+  age: 45,
+  isRegistered: false,
+  lang: ["Bangla", "English"],
+};
+
+const user2 = {
+  name: "Bortakia Bazer",
+  age: 46,
+  isRegistered: true,
+  lang: ["Bangla", "English", "Hindi"],
+};
+
+function App() {
+  return (
+    <div className="app">
+      <h1>User Management</h1>
+
+      <User user={user1}></User>
+      <User user={user2}></User>
+    </div>
+  );
+}
+
+export default App;
 */

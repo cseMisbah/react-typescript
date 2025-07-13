@@ -36,4 +36,17 @@ const DataFetch = ({ status }: { status: string }) => {
 };
 
 export default DataFetch;
+
+
+function App() {
+  return (
+    <div className="app">
+      <h1>User Management</h1>
+
+      <DataFetch status="success"></DataFetch>
+    </div>
+  );
+}
+
+export default App;
 */

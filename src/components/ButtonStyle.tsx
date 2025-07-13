@@ -9,3 +9,16 @@ const ButtonStyle = (props: ButtonStyleProps) => {
 };
 
 export default ButtonStyle;
+
+/*
+function App() {
+  return (
+    <div className="app">
+      <h1>Style Props</h1>
+      <ButtonStyle btnStyle={{ color: "red" }}></ButtonStyle>
+    </div>
+  );
+}
+
+export default App;
+*/

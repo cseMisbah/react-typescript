@@ -26,3 +26,36 @@ const UserDemo = ({ users }: userDemoProps) => {
 };
 
 export default UserDemo;
+
+/*
+
+
+const users = [
+  {
+    id: 1,
+    name: "baitolla",
+    email: "fazolollah@getMaxListeners.com",
+    age: 987,
+  },
+
+  {
+    id: 2,
+    name: "Boshirullah",
+    email: "dolaia@gmail.com",
+    age: 456,
+  },
+];
+
+function App() {
+  return (
+    <div className="app">
+      <h1>User Management</h1>
+
+      <UserDemo users={users}></UserDemo>
+    </div>
+  );
+}
+
+export default App;
+
+*/

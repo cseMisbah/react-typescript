@@ -9,3 +9,19 @@ const Button = (props: ButtonProps) => {
 };
 
 export default Button;
+
+/*
+
+function App() {
+  return (
+    <div className="app">
+      <h1>Children Props</h1>
+
+      <Button>Click me</Button>
+      <Post></Post>
+    </div>
+  );
+}
+
+export default App;
+*/

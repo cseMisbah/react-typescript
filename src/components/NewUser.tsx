@@ -27,3 +27,15 @@ const NewUser = () => {
 };
 
 export default NewUser;
+
+/*
+function App() {
+  return (
+    <div className="app">
+      <NewUser></NewUser>
+    </div>
+  );
+}
+
+export default App;
+*/
